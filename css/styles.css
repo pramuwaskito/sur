@@ -351,6 +351,10 @@ nav a {
     color: #fff;
 }
 
+.dotted-bg {
+  background-image: radial-gradient(#e6dac0 1.3px, transparent 1.3px);
+  background-size: 18px 18px;
+}
 
 .popup-overlay {
     position: absolute;
@@ -601,7 +605,7 @@ ul.menu-home li a img {
 }
 
 .footer-menu-home ul li a {
-    color: #fff;
+    color: #1D2433;
 }
 
 ul.page-numbers {
