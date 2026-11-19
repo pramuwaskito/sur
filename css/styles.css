@@ -384,7 +384,7 @@ nav a {
 
 .popup-content>div {
     max-width: 832px;
-    background: #445620;
+    background: #0084b7;
     padding: 40px;
     border-radius: 24px;
     position: absolute;
@@ -443,11 +443,11 @@ nav a {
 .popup-content>div div.description::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-    background-color: #c4bb52;
+    background-color: #004b68;
 }
 
 .description a {
-    color: #c4bb52;
+    color: #00fdff;
 }
 
 .menu-home {
@@ -709,7 +709,7 @@ div.categories a:hover {
 .description h2:not([class]),
 .description h3:not([class]),
 .description h4:not([class]) {
-    color: #c4bb52;
+    color: #ffffff;
 }
 
 .description h2:not([class]) {
@@ -725,7 +725,7 @@ div.categories a:hover {
 }
 
 .description a:not([class]) {
-    color: #c4bb52;
+    color: #00fdff;
     text-decoration: none;
 }
 
@@ -1403,67 +1403,7 @@ label.label-contact-select {
      }
  }
 
- /* FAQ Section */
-.game-faq__wrap {
-    margin: 24px 5px 24px 0;
-}
 
-.game-faq__title {
-    color: #c4bb52;
-    margin-bottom: 12px;
-    font-size: 24px;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.game-faq__list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.game-faq__item {
-    border: 1px solid #e5e7eb;
-    border-radius: 12px;
-    overflow: hidden;
-    transition: border-color .2s;
-}
-
-.game-faq__question {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    padding: 12px 16px;
-    cursor: pointer;
-    list-style: none;
-    user-select: none;
-}
-
-.game-faq__question h3 {
-    margin: 0;
-    font-size: 17px;
-    font-weight: 600;
-    color: #c4bb52;
-}
-
-.game-faq__question .svg-icon {
-    flex-shrink: 0;
-    color: #c4bb52;
-    transition: transform .2s;
-}
-
-.game-faq__item[open] .game-faq__question .svg-icon {
-    transform: rotate(180deg);
-}
-
-.game-faq__answer {
-    padding: 0 16px 14px;
-    color: #fff;
-    opacity: 0.8;
-    line-height: 1.625;
-    font-size: 14px;
-}
 
 
  @media (max-width: 1264px) {
