@@ -564,13 +564,18 @@ ul.menu-home li a img {
     border-radius: 12px;
     margin: 12px auto;
     width: 100%;
-    color: #1D2433;
     text-align: left;
 }
 
 .site-page {
     font-size: 24px;
     text-align: center;
+	color: #1D2433;
+}
+
+.site-desc {
+    color: #5b6475;
+	text-align: center;
 }
 
 .boxads300x280 {
